@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@font-face {
+    font-family: vocaloid-it;
+    src: url(/html-basic-1/CSS/fonts/vocaloid/VOC-IT.ttf);
+}
+@font-face {
+    font-family: vocaloid-re;
+    src: url(/html-basic-1/CSS/fonts/vocaloid/VOC-RE.ttf);
+}
+@font-face {
+    font-family: vocaloid-le;
+    src: url(/html-basic-1/CSS/fonts/vocaloid/LegacySansStd-Bold.otf);  
+}
+
+#cim{
+    float: left;
+    position: absolute;
+    height: 50px;
+    width: fit-content;
+    color: aliceblue !important;
+    bottom: 0;
+    text-shadow: -2px 0 #e12885, 0 2px #e12885, 2px 0 #e12885, 0 -2px #e12885;    
+    font-size: 50px;
+    font-family: vocaloid-le;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+#fejlec-menu-items{
+    font-family: vocaloid-it;
+    font-size: 18px;
+    color: whitesmoke !important;
+    text-shadow: -2px 0 #e12885, 0 2px #e12885, 2px 0 #e12885, 0 -2px #e12885;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+#fejlec-menu-items:hover{
+    background-color: aliceblue;
+    box-shadow: 5px 5px #e12885;
+}
+#also-sav{
+    color: white;
+    font-size: 13px;
+    
+}
+html{
+    font-family: 'Quicksand', sans-serif !important;
+}
+.jobb-tartalom{
+    font-size: 17px;
+    text-align: left;
+}
+td {
+    text-align: left;
+  }
+#zaras{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+.tartalom-cim{
+    text-align: left;
+    font-size: 20px;
+
+}
+#also-sav{
+    text-align: center;
+}
+table{
+    vertical-align: middle !important;
+}

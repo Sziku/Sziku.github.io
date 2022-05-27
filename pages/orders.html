@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMB Rendelés</title>
+    <link rel="stylesheet" href="/html-basic-1/CSS/style.css">
+    <link rel="stylesheet" href="/html-basic-1/CSS/betuk.css">
+    
+</head>
+
+<body>
+    <div class="torzs">
+        <div id="fejlec-kep">
+           
+          <div id="cim">
+            <a href="/html-basic-1/index.html">Hatsune Miku Bolt</a>  
+            
+          </div>
+        </div>
+        <div id="fejlec-menu">
+            
+            <div id="fejlec-menu-items">
+                <a target="_blank" href="/html-basic-1/pages/products.html">
+                    Termékek
+                </a> 
+            </div>
+
+            <div id="fejlec-menu-items">
+                <a target="_blank" href="/html-basic-1/pages/akcio.html">
+                    Akciók
+                </a>
+            </div>
+
+            <div id="fejlec-menu-items">
+                <a target="_blank" href="/html-basic-1/pages/orders.html">
+                    Rendelés
+                </a>        
+            </div>
+
+            <div id="fejlec-menu-items">
+                <a target="_blank" href="/html-basic-1/pages/about.html">
+                    Foglalás
+                </a>
+            </div>
+        </div>
+        <div id="al-torzs">
+            <div id="jobb-sav">
+                <div class="jobb-tartalom">Belépés:</div>
+                <div class="jobb-tartalom">
+                    <table>
+                        <caption>Nyitvatartásunk:</caption>
+                    <thead>
+                        <tr>
+                            <th>Nap</th>
+                            <th>Nyitás</th>
+                            <th>Zárás</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr> 
+                            <td>Hétfő - Péntek</td>
+                            <td>11:00</td>
+                            <td rowspan="2">19:00</td>
+                        </tr>
+                        <tr> 
+                            <td>Szombat</td>
+                            <td>12:00</td>
+                            <td></td>
+                        </tr>
+                        <tr> 
+                            <td>Vasárnap</td>
+                            <td id="zaras" colspan="2">Zárva</td>
+                            
+                        </tr>
+                    </tbody>
+                    </table>
+                    
+                </div>
+                <div class="jobb-tartalom">Elérhetőségeink:
+                    <ul>
+                        <li>
+                            Telefon: +36 66/666-6666
+                        </li>
+                        <li>
+                            Fax:666-666
+                        </li>
+                        <li>
+                            Email: info@hatsunemikubolt.hu
+                        </li>
+                        <li>
+                            Facebook: soon
+                        </li>
+                       
+                    </ul>
+                </div>
+                <div class="jobb-tartalom">Térkép</div>
+                
+
+            </div>
+
+            <div id="tartalom-torzs">
+                <div class="tartalom">
+                    <div class="container">
+                        <form>
+                            <fieldset>
+                                <legend>Személyes adatok</legend>
+                                <div>
+                                    <label for="name">Név:</label>
+                                    <input id="name" name="name" type="name" required>
+                                </div>
+                            
+                                <div>
+                                    <label for="email">Email cím:</label>
+                                    <input id="email" name="email" type="email" required>
+                                </div>
+                        
+                                <div>
+                                    <label for="address">Cím:</label>
+                                    <input id="address" name="address" type="text" required>
+                                </div>
+                        
+                                <div>
+                                    <label for="comment">Megjegyzés</label>
+                                    <textarea id="comment" name="comment" rows="5" required></textarea>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend> Válasz nyomtató</legend>
+                                <div>
+                                    <input  type="radio" name="printer" id="fdm" value="5000" required>
+                                    <label for="fdm">FDM nyomtató</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="printer" id="sla" value="10000" required>
+                                    <label for="sla">SLA nyomtató</label>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Figura kiválasztása</legend>
+                                <div>
+                                    <label for="figura-id">Figúra kódja</label>
+                                    <select name="figura-id" id="figura-id">
+                                        <option value="0">HM-01</option>
+                                        <option value="0">HM-02</option>
+                                        <option value="0">HM-03</option>
+                                        <option value="0">HM-04</option>
+                                        <option value="0">HM-05</option>
+                                        <option value="0">HM-06</option>
+                                        <option value="0">HM-07</option>
+                                    </select>
+                                </div>
+                                <div>
+
+                                    <label for="mennyiseg">Mennyiség</label>
+                                    <input id="mennyiseg" type="number" name="quantity" min="1" max="10">
+                                </div>
+                            </fieldset>
+                            <div>
+                                <input type="button" value="Rendelés leadása"> Ár: Ft
+                            </div>
+                           
+                            
+                        </form>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div id="also-sav">
+                <p><i>Copyright</i> 2022 ©</p>
+                <p>Ez egy DEMO oldal. Semilyen szolgáltaást nem nyujtunk csupán html gyakorlás céljából létezik ez a szar. Aki ezek után elhiszi, hogy ez igaz az hülye mint a segg.</p>
+                
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+</html>
