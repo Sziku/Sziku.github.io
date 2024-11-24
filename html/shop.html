@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Csillagközi száguldás</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../css/icons/rocket.png">
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div id="logo">
+                <img src="../img/logo.webp" alt="csillagközi száguldás logo">
+            </div>
+            <div >
+                <div id="honlapcim">
+                    <h1>
+                        Csillagközi Száguldás hivatalos oldala
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div>
+            <div class="center">
+                <iframe src="navbar.html"></iframe>
+            </div>
+        </div>
+    </nav>
+    <main class="center">
+        <div id="mobil">
+            <details>
+                <summary class="linkwhite"><span class="material-symbols-outlined">menu</span> Menü</summary>
+                <ul>
+                    <li><a class="linkwhite" href="../index.html" target="_parent">MAIN</a></li>
+                    <li><a class="linkwhite" href="race.html" target="_parent">RACES</a></li>
+                    <li><a class="linkwhite" href="pilots.html" target="_parent">PILOTS</a></li>
+                    <li><a class="linkwhite" href="teams.html" target="_parent">TEAMS</a></li>
+                    <li><a class="linkwhite" href="legends.html" target="_parent">HALL OF <br>FAME</a></li>
+                    <li><a class="linkwhite" href="places.html" target="_parent">PLACES</a></li>
+                    <li><a class="linkwhite" href="shop.html" target="_parent">MERCH</a></li>
+                    <li><a class="linkwhite" href="ticket.html" target="_parent">TICKETS</a></li>
+               </ul>
+            </details>
+        </div>
+        <div class="gray">
+            <h1 class="text-center"><span class="material-symbols-outlined">storefront</span> Bolt</h1>
+            <div class="kosar center">
+                <p><span class="material-symbols-outlined">shopping_basket</span> Kosár</p>
+                <details class="flex-center">
+                    <summary>Kosárba tartalma:</summary>
+                    <table class="center-tb">
+                        <thead>
+                            <tr>
+                            <th>Ternék száma</th>
+                            <th>Termék neve</th>
+                            <th>Darab</th>
+                            <th>Összeg</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1.</td>
+                                <td>Star Racer Jacket</td>
+                                <td><b>1db</b></td>
+                                <td><i>500 <span class="material-symbols-outlined">currency_yen</span></i></td>                               
+                            </tr>
+                            <tr>
+                                <td>2.</td>
+                                <td>Gravity Grip Mug</td>
+                                <td><b>1db</b></td>
+                                <td><i>100 <span class="material-symbols-outlined">currency_yen</span></i></td>
+                            </tr>
+                            <tr>
+                                <td>3.</td>
+                                <td>Supernova Snapback Cap</td>
+                                <td><b>1db</b></td>
+                                <td><i>150 <span class="material-symbols-outlined">currency_yen</span></i></td>
+                            </tr>
+                            <tr>
+                                <td>4.</td>
+                                <td>Nebula Racer Tee </td>
+                                <td><b>1db</b></td>
+                                <td><i>120 <span class="material-symbols-outlined">currency_yen</span></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr>
+                    <h3>Összesen: 870<span class="material-symbols-outlined">currency_yen</span></h3>
+                    <button class="center-tb">Fizetés</button>
+                    <p>Fizetéshez <a href="shop/login.html">bejelentkezés</a>bejelentkezés szükséges. Amenyiben még nem regisztrált <a href="shop/register.html">itt</a> megteheti.</p>
+                </details>
+            </div>
+            <div class="flexrow places-container">
+                <article class="place-container flex-center flexcol termek-lap">
+                    <div class="bolygo termek-kep"><img src="../img/shop/00024-1175079297.png" alt="bolygo"></div>
+                    <h2 class="place">Star Racer Jacket</h2>
+                    <div class="bolygo-adatok">
+                        <p>Stílusos, könnyű dzseki Csillagközi Száguldás logóval és csapatok színeivel. Tökéletes mindennapi viselethez.</p>
+                        <div class="flex-center flex-base">
+                            <h3>500 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <div class="bolygo termek-kep"><img src="../img/shop/00040-3086185296.png" alt="bolygo"></div>
+                    <h2 class="place">Gravity Grip Mug</h2>
+                    <div class="bolygo-adatok">
+                        <p>Hőálló bögre, amelyet gravitációs pályák ihlettek, holografikus Csillagközi Száguldás mintával.</p>
+                        <div class="flex-center flex-base">
+                            <h3>100 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <div class="bolygo termek-kep"><img src="../img/shop/00034-4251648465.png" alt="bolygo"></div>
+                    <h2 class="place">Supernova Snapback Cap</h2>
+                    <div class="bolygo-adatok">
+                        <p>Állítható méretű, prémium minőségű sapka a versenyek emblémájával. Divatos kiegészítő minden rajongónak</p>
+                        
+                        <div class="flex-center flex-base">
+                            <h3>150 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number" name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <div class="bolygo termek-kep"><img src="../img/shop/00028-2230744954.png" alt="bolygo"></div>
+                    <h2 class="place">Nebula Racer Tee</h2>
+                    <div class="bolygo-adatok">
+                        <p>Pamut póló dinamikus galaktikus mintával és ikonikus pályanevekkel. Kényelmes, színtartós viselet.</p>
+                        
+                        <div class="flex-center flex-base">
+                            <h3>120c <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <div class="bolygo termek-kep"><img src="../img/shop/00022-3027301410.png" alt="bolygo"></div>
+                    <h2 class="place">Meteor Momentum Hoodiee</h2>
+                    <div class="bolygo-adatok">
+                        <p>Puha, meleg kapucnis pulóver a versenyzők kedvenc idézeteivel. Ideális hűvös napokra.</p>
+                        
+                        <div class="flex-center flex-base" >
+                            <h3>350 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <div class="bolygo termek-kep"><img src="../img/shop/00043-691665999.png" alt="bolygo"></div>
+                    <h2 class="place">Circuit Challenge Backpack</h2>
+                    <div class="bolygo-adatok">
+                        <p>Vízálló hátizsák, amelyet a versenypályák ihlettek. Tökéletes utazáshoz és sporthoz.</p>
+                        
+                        <div class="flex-center flex-base">
+                            <h3>400 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <div class="bolygo termek-kep"><img src="../img/shop/00045-2866729807.png" alt="bolygo"></div>
+                    <h2 class="place">Turbo Velocity Keychain</h2>
+                    <div class="bolygo-adatok">
+                        <p>Fém kulcstartó mini űrhajó-dizájnnal és világító gravírozással.</p>
+                        
+                        <div class="flex-center flex-base">
+                            <h3>80 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <div class="bolygo termek-kep"><img src="../img/shop/00050-669094582.png" alt="bolygo"></div>
+                    <h2 class="place">Plasma Storm Bottle</h2>
+                    <div class="bolygo-adatok">
+                        <p>Hőálló, rozsdamentes acél kulacs versenyspecifikus dizájnnal. Ideális edzéshez és túrázáshoz.</p>
+                        <div class="flex-center flex-base">
+                            <h3>200 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <div class="bolygo termek-kep"><img src="../img/shop/00036-458649904.png" alt="bolygo"></div>
+                    <h2 class="place">Starforge Sneakerse</h2>
+                    <div class="bolygo-adatok">
+                        <p>Limitált szériás sportcipő, a Csillagközi Száguldás hivatalos színeiben. Ultrakönnyű és kényelmes.</p>
+                        
+                        <div class="flex-center flex-base">
+                            <h3>700 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <div class="bolygo termek-kep"><img src="../img/shop/00054-4156854434.png" alt="bolygo"></div>
+                    <h2 class="place">Cosmic Racer Gloves</h2>
+                    <div class="bolygo-adatok">
+                        <p>Precíziós versenyzői kesztyű tapadásfokozó technológiával. Szabadidős tevékenységekhez is ideális.</p>
+                        
+                        <div class="flex-center flex-base">
+                            <h3>250 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <div class="bolygo termek-kep"><img src="../img/shop/00058-4169248945.png" alt="bolygo"></div>
+                    <h2 class="place">Quantum Drift Notebook</h2>
+                    <div class="bolygo-adatok">
+                        <p>Egyedi grafikával ellátott jegyzetfüzet, holografikus borítóval. Inspiráló idézetek a lapokon.</p>
+                        
+                        <div class="flex-center flex-base">
+                            <h3>50 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <div class="bolygo termek-kep"><img src="../img/shop/00035-4251648466.png" alt="bolygo"></div>
+                    <h2 class="place">Polaris Ice Beanie</h2>
+                    <div class="bolygo-adatok">
+                        <p>Meleg, puha kötött sapka Polaris Ice Loop logóval. Tökéletes hideg időjárásban.</p>
+                        
+                        <div class="flex-center flex-base">
+                            <h3>120 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <div class="bolygo termek-kep"><img src="../img/shop/00071-801730837.png" alt="bolygo"></div>
+                    <h2 class="place">Velocity Badge Set</h2>
+                    <div class="bolygo-adatok">
+                        <p>Egyedi kitűzők a szezon ikonikus pályáiról és csapatairól. Gyűjtők számára is ideális.</p>
+                        
+                        <div class="flex-center flex-base">
+                            <h3>90 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <div class="bolygo termek-kep"><img src="../img/shop/00060-2108307039.png" alt="bolygo"></div>
+                    <h2 class="place">Stellar Circuit Poster</h2>
+                    <div class="bolygo-adatok">
+                        <p>Nagyméretű, prémium minőségű poszter a versenypályákról. Tökéletes szoba- vagy iroda-dekoráció.</p>
+                        
+                        <div class="flex-center flex-base">
+                            <h3>150 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <div class="bolygo termek-kep"><img src="../img/shop/00065-2181302086.png" alt="bolygo"></div>
+                    <h2 class="place">Warp Speed Blanket</h2>
+                    <div class="bolygo-adatok">
+                        <p>Pihe-puha pléd dinamikus, űrutazás inspirálta mintával. Ideális otthoni pihenéshez.</p>
+                        
+                        <div class="flex-center flex-base">
+                            <h3>300 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <div class="bolygo termek-kep"><img src="../img/shop/00070-2224829564.png" alt="bolygo"></div>
+                    <h2 class="place">Nova Pulse Watch</h2>
+                    <div class="bolygo-adatok">
+                        <p>Limitált kiadású okosóra versenyspecifikus funkciókkal és holografikus kijelzővel.</p>
+                        
+                        <div class="flex-center flex-base">
+                            <h3>1000 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <div class="bolygo termek-kep"><img src="../img/shop/00069-2399229205.png" alt="bolygo"></div>
+                    <h2 class="place">Rocket Racer Puzzle</h2>
+                    <div class="bolygo-adatok">
+                        <p>1000 darabos kirakó a legnépszerűbb pilótákról és pályákról. Ideális rajongóknak.</p>
+                        
+                        <div class="flex-center flex-base">
+                            <h3>180 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <div class="bolygo termek-kep"><img src="../img/shop/00068-1142860686.png" alt="bolygo"></div>
+                    <h2 class="place">Andromeda Galaxy Lamp</h2>
+                    <div class="bolygo-adatok">
+                        <p>Éjjeli lámpa csillagközi mintával és színváltó funkcióval. Különleges hangulatvilágítás.</p>
+                        
+                        <div class="flex-center flex-base">
+                            <h3>400 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <div class="bolygo termek-kep"><img src="../img/shop/00071-4124970214.png" alt="bolygo"></div>
+                    <h2 class="place">Gravity Grip Mousepad</h2>
+                    <div class="bolygo-adatok">
+                        <p>Nagyméretű, csúszásmentes egérpad versenypálya-térképekkel és stílusos dizájnnal.</p>
+                        
+                        <div class="flex-center flex-base">
+                            <h3>70 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number" name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <div class="bolygo termek-kep"><img src="../img/shop/00076-766944607.png" alt="bolygo"></div>
+                    <h2 class="place">Eclipse Racer Wallete</h2>
+                    <div class="bolygo-adatok">
+                        <p>Karbonhatású pénztárca, amelyet a versenyek lendülete ihletett. Elegáns és tartós.</p>
+                        
+                        <div class="flex-center flex-base">
+                            <h3>150 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+            </div>
+            <button onclick="history.back()">Elöző oldal</button>
+        </div>
+    </main>
+    <footer>
+        <div class="center">
+            <iframe src="footer.html"></iframe>
+        </div>
+    </footer>
+</body>
+</html>

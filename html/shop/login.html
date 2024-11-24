@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Csillagközi száguldás</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../../css/icons/rocket.png">
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div id="logo">
+                <img src="../../img/logo.webp" alt="csillagközi száguldás logo">
+            </div>
+            <div >
+                <div id="honlapcim">
+                    <h1>
+                        Csillagközi Száguldás hivatalos oldala
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div>
+            <div class="center">
+                <iframe src="../navbar.html"></iframe>
+            </div>
+        </div>
+    </nav>
+    <main class="center">
+        <div id="mobil">
+            <details>
+                <summary class="linkwhite"><span class="material-symbols-outlined">menu</span> Menü</summary>
+                <ul>
+                    <li><a class="linkwhite" href="../../index.html" target="_parent">MAIN</a></li>
+                    <li><a class="linkwhite" href="../race.html" target="_parent">RACES</a></li>
+                    <li><a class="linkwhite" href="../pilots.html" target="_parent">PILOTS</a></li>
+                    <li><a class="linkwhite" href="../teams.html" target="_parent">TEAMS</a></li>
+                    <li><a class="linkwhite" href="../legends.html" target="_parent">HALL OF <br>FAME</a></li>
+                    <li><a class="linkwhite" href="../places.html" target="_parent">PLACES</a></li>
+                    <li><a class="linkwhite" href="../shop.html" target="_parent">MERCH</a></li>
+                    <li><a class="linkwhite" href="../ticket.html" target="_parent">TICKETS</a></li>
+               </ul>
+            </details>
+        </div>
+        <div class="gray">
+            <h1 class="text-center"><span class="material-symbols-outlined">input</span> Bejelentkezés</h1>
+            <div class="flexcol kosar">
+                <form method="POST">
+                    <label for="email">E-mail cím:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="passwd">Jelszó:</label>
+                    <input type="password" id="passwd" name="passwd" required>
+                    <input type="submit" value="Belépés">
+                </form>
+                <a href="../shop.html" class="newsaddres linkwhite"> Vissza a bolthoz</a>
+            </div>
+
+            <button onclick="history.back()">Elöző oldal</button>
+        </div>
+    </main>
+    <footer>
+        <div class="center">
+            <iframe src="../footer.html"></iframe>
+        </div>
+    </footer>
+</body>
+</html>

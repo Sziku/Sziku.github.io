@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Csillagközi száguldás</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../css/icons/rocket.png">
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div id="logo">
+                <img src="../img/logo.webp" alt="csillagközi száguldás logo">
+            </div>
+            <div >
+                <div id="honlapcim">
+                    <h1>
+                        Csillagközi Száguldás hivatalos oldala
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div>
+            <div class="center">
+                <iframe src="navbar.html"></iframe>
+            </div>
+        </div>
+    </nav>
+    <main class="center">
+        <div id="mobil">
+            <details>
+                <summary class="linkwhite"><span class="material-symbols-outlined">menu</span> Menü</summary>
+                <ul>
+                    <li><a class="linkwhite" href="../index.html" target="_parent">MAIN</a></li>
+                    <li><a class="linkwhite" href="race.html" target="_parent">RACES</a></li>
+                    <li><a class="linkwhite" href="pilots.html" target="_parent">PILOTS</a></li>
+                    <li><a class="linkwhite" href="teams.html" target="_parent">TEAMS</a></li>
+                    <li><a class="linkwhite" href="legends.html" target="_parent">HALL OF <br>FAME</a></li>
+                    <li><a class="linkwhite" href="places.html" target="_parent">PLACES</a></li>
+                    <li><a class="linkwhite" href="shop.html" target="_parent">MERCH</a></li>
+                    <li><a class="linkwhite" href="ticket.html" target="_parent">TICKETS</a></li>
+               </ul>
+            </details>
+        </div>
+        <div class="gray">
+            <h1 class="text-center"><span class="material-symbols-outlined">book_online</span> Jegyek és Bérletek</h1>
+            <div class="kosar center">
+                <p><span class="material-symbols-outlined">shopping_basket</span> Kosár</p>
+                <details class="flex-center">
+                    <summary>Kosárba tartalma:</summary>
+                    <table class="center-tb">
+                        <thead>
+                            <tr>
+                            <th>Ternék száma</th>
+                            <th>Termék neve</th>
+                            <th>Darab</th>
+                            <th>Összeg</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1.</td>
+                                <td>Infinity All-Access Pass</td>
+                                <td><b>1db</b></td>
+                                <td><i>50000 <span class="material-symbols-outlined">currency_yen</span></i></td>                               
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr>
+                    <h3>Összesen: 50000<span class="material-symbols-outlined">currency_yen</span></h3>
+                    <button class="center-tb">Fizetés</button>
+                    <p>Fizetéshez <a href="shop/login.html">bejelentkezés</a>bejelentkezés szükséges. Amenyiben még nem regisztrált <a href="shop/register.html">itt</a> megteheti.</p>
+                </details>
+            </div>
+            <h2>Bérletek</h2>
+            <div class="jelzes center">
+                <h3><span class="material-symbols-outlined">error</span>A bérletek csak korlátozott időtartamig érhetőek el vagy a készlet erejéig.<span class="material-symbols-outlined">error</span></h3>
+              </div>
+            <div class="flexrow places-container">
+                <article class="place-container flex-center flexcol termek-lap">
+                    <h2 class="place flex-center">Stellar Pass</h2>
+                    <div class="bolygo-adatok">
+                        <ul>
+                            <li>
+                                Belépés az összes futamra a szezon során. Alapvető ülőhelyek, és hozzáférés a versenyek standard programjaihoz.
+                            </li>
+                            <li>
+                                <b>Extra: 10%-os kedvezmény</b> a helyszíni éttermekben és boltokban.
+                            </li>
+                        </ul>
+                        <div class="flex-center flex-base">
+                            <h3>2000 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <h2 class="place flex-center">Nova Elite Pass</h2>
+                    <div class="bolygo-adatok">
+                        <ul>
+                            <li>
+                                Prioritásos belépés, jobb látószögű helyek, és egy ajándékcsomag hivatalos Csillagközi Száguldás merch termékekkel.
+                            </li>
+                            <li>
+                                <b>Extra: 15%-os kedvezmény</b> minden helyszíni boltban és étteremben, valamint egy exkluzív kuponkód további online vásárlásokhoz.
+                            </li>
+                        </ul>
+                        <div class="flex-center flex-base">
+                            <h3>5000 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <h2 class="place flex-center">Galaxy VIP Pass</h2>
+                    <div class="bolygo-adatok">
+                        <ul>
+                            <li>
+                                Exkluzív VIP zóna hozzáférés minden futamon. Találkozók a pilótákkal és dedikált parkolóhely.
+                            </li>
+                            <li>
+                                <b>Extra: 20%-os kedvezmény</b>  a helyszíni éttermekben és boltokban, valamint prémium ételek kóstolása ingyen a VIP zónában.
+                            </li>
+                        </ul>
+                        <div class="flex-center flex-base">
+                            <h3>10000 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <h2 class="place flex-center">Cosmic Luxury Pass</h2>
+                    <div class="bolygo-adatok">
+                        <ul>
+                            <li>
+                                VIP élmények mellett luxus szállás, külön étkezési csomag, és privát túravezetés a versenyhelyszíneken.
+                            </li>
+                            <li>
+                                <b>Extra: 25%-os kedvezmény</b> az összes helyszíni étteremben és boltban, valamint bónusz kupon egy exkluzív helyi gasztronómiai élményhez.
+                            </li>
+                        </ul>
+                        <div class="flex-center flex-base">
+                            <h3>25000 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <h2 class="place flex-center">Infinity All-Access Pass</h2>
+                    <div class="bolygo-adatok">
+                        <ul>
+                            <li>
+                                Teljes szezonra szóló korlátlan hozzáférés: exkluzív helyszíni rendezvények, VR/AR élmények, és limitált kiadású relikviák.
+                            </li>
+                            <li>
+                                <b>Extra: 30%-os kedvezmény</b> minden boltban és étteremben, valamint limitált gasztronómiai túrák VIP hozzáféréssel.
+                            </li>
+                        </ul>
+                        <div class="flex-center flex-base">
+                            <h3>50000 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+            </div>
+            <h2><span class="material-symbols-outlined">confirmation_number</span> Jegyek</h2>
+            <h3 class="text-center"><span class="material-symbols-outlined">accessibility_new</span> Álló helyek</h3>
+            <div class="flexrow places-container">
+                <article class="place-container flex-center flexcol termek-lap">
+                    <h2 class="place flex-center">Családi</h2>
+                    <div class="bolygo-adatok">
+                        <ul>
+                            <li>
+                                Két felnőtt és maximum három gyerek számára biztosít belépést. Ideális a versenyek családi élményéhez.
+                            </li>
+                        </ul>
+                        <div class="flex-center flex-base">
+                            <h3>150 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <h2 class="place flex-center">Gyerek</h2>
+                    <div class="bolygo-adatok">
+                        <ul>
+                            <li>
+                                14 év alatti gyermekek számára érvényes, akik izgalmas közelről követhetik a versenyeket.
+                            </li>
+                        </ul>
+                        <div class="flex-center flex-base">
+                            <h3>40 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <h2 class="place flex-center">Nyugdíjas</h2>
+                    <div class="bolygo-adatok">
+                        <ul>
+                            <li>
+                                60 év feletti rajongók számára biztosított kedvezményes jegy, hogy mindenki élvezhesse a futamokat.
+                            </li>
+                        </ul>
+                        <div class="flex-center flex-base">
+                            <h3>50 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <h2 class="place flex-center">Felnőtt</h2>
+                    <div class="bolygo-adatok">
+                        <ul>
+                            <li>
+                                Teljes árú jegy, amely állóhelyet biztosít a lelátók közelében. Tökéletes a futamok teljes élvezetéhez.
+                            </li>
+                        </ul>
+                        <div class="flex-center flex-base">
+                            <h3>80 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <h2 class="place flex-center">Tanuló</h2>
+                    <div class="bolygo-adatok">
+                        <ul>
+                            <li>
+                                Kedvezményes jegy diákigazolvánnyal rendelkező tanulók számára, hogy mindenki részese lehessen a galaktikus élménynek.
+                            </li>
+                        </ul>
+                        <div class="flex-center flex-base">
+                            <h3>60 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                
+            </div>
+            <h3 class="text-center"><span class="material-symbols-outlined">airline_seat_recline_extra</span> Üllő helyek</h3>
+            <div class="flexrow places-container">
+                <article class="place-container flex-center flexcol termek-lap">
+                    <h2 class="place flex-center">Családi</h2>
+                    <div class="bolygo-adatok">
+                        <ul>
+                            <li>
+                                Két felnőtt és maximum három gyerek számára nyújt ülőhelyet a pálya kényelmesebb szektoraiban.
+                            </li>
+                            <li>
+                                Szektor száma: <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            </li>
+                        </ul>
+                        <div class="flex-center flex-base">
+                            <h3>300 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <h2 class="place flex-center">Gyerek</h2>
+                    <div class="bolygo-adatok">
+                        <ul>
+                            <li>
+                                14 év alatti gyerekeknek kínál ülőhelyet a versenypálya jól látható szektoraiban.
+                            </li>
+                            <li>
+                                Szektor száma: <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            </li>
+                        </ul>
+                        <div class="flex-center flex-base">
+                            <h3>100 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <h2 class="place flex-center">Nyugdíjas</h2>
+                    <div class="bolygo-adatok">
+                        <ul>
+                            <li>
+                                Kedvezményes jegy 60 év felettieknek, a kényelmesebb helyek és jobb kilátás érdekében.
+                            </li>
+                            <li>
+                                Szektor száma: <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            </li>
+                        </ul>
+                        <div class="flex-center flex-base">
+                            <h3>120 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <h2 class="place flex-center">Felnőtt</h2>
+                    <div class="bolygo-adatok">
+                        <ul>
+                            <li>
+                                Teljes árú jegy, amely kényelmes ülőhelyet biztosít a pálya legjobb kilátással rendelkező szektoraiban.
+                            </li>
+                            <li>
+                                Szektor száma: <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            </li>
+                        </ul>
+                        <div class="flex-center flex-base">
+                            <h3>200 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+                <article class="place-container flex-center flexcol termek-lap">
+                    <h2 class="place flex-center">Tanuló</h2>
+                    <div class="bolygo-adatok">
+                        <ul>
+                            <li>
+                                Kedvezményes jegy tanulóknak, akik a kényelmes ülőhelyekről élvezhetik a futamokat.
+                            </li>
+                            <li>
+                                Szektor száma: <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            </li>
+                        </ul>
+                        <div class="flex-center flex-base">
+                            <h3>150 <span class="material-symbols-outlined">currency_yen</span></h3>
+                            <input type="number"  name="points" step="1" class="shop-gomb" placeholder="0">
+                            <button class="shop-gomb"><span class="material-symbols-outlined">shopping_cart</span></button>
+                        </div>  
+                    </div>
+                </article>
+            </div>
+            <details>
+                <summary class="flex-center">
+                    <h2 class="text-center"><span class="material-symbols-outlined">keyboard_arrow_down</span>Szektor kép</h2>
+                </summary>
+                <img src="../img/shop/szektor.webp" alt="szektorkep" class="block center-tb">
+            </details>
+            <button onclick="history.back()">Elöző oldal</button>
+        </div>
+    </main>
+    <footer>
+        <div class="center">
+            <iframe src="footer.html"></iframe>
+        </div>
+    </footer>
+</body>
+</html>
