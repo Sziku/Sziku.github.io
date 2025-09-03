@@ -1,37 +1,338 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Tankó Szilárd honlapja</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Csillagközi száguldás</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="css/icons/rocket.png">
+
 </head>
 <body>
-
-<h1>Oktatás anyagok</h1>
-<p>Accountok</p>
-<p><a href="https://github.com/signup?source=login">Github</a></p>
-<p><a href="https://www.codewars.com/users/sign_in">Code Wars</a></p>
-<p><a href="https://account.jetbrains.com/login">JetBrains</a></p> 
-<h2> 1 órai feladatok</h2>
-
-<p><a href="https://www.codewars.com/kata/643af0fa9fa6c406b47c5399">feladat 1</a></p>
-<p>Feladat
-Adott egy pont egy euklideszi síkon (x és y), adja vissza azt a kvadránst, amelyben a pont található: 1, 2, 3 vagy 4 (egész szám). x és y nem nulla egész számok, ezért az adott pont soha nem fekszik a tengelyeken.
-</p>
-
-<p><a href="https://www.codewars.com/kata/643ea1adef815316e5389d17">feladat 2</a></p>
-<p>Feladat
-A feladatod az, hogy ellenőrizd, egy szegmens teljes egészében egy kvadránsban van-e, vagy többet is átlép. Ha a szegmens két vagy több kvadránsban van, akkor adj vissza igaz értéket. Ha a szegmens csak egy kvadránsban van, akkor adj vissza hamis értéket. Két paraméter van: A (coord) és B (coord), az AB szegmenst meghatározó végpontok. Egyik koordináta sem lesz nulla; feltételezd, hogy minden X és Y érték pozitív vagy negatív.
-</p>
-
-<p><a href="https://www.codewars.com/kata/5b853229cfde412a470000d0" target="_blank">feladat 3</a></p>
-<p>
-A függvény két argumentumot fogad:
-    az apa jelenlegi életkora (évben)
-    a fia jelenlegi életkora (évben)
-Számítsa ki, hány évvel ezelőtt volt az apa kétszer olyan idős, mint a fia (vagy hány év múlva lesz kétszer olyan idős). A válasz mindig nagyobb vagy egyenlő 0-val, függetlenül attól, hogy a múltban vagy a jövőben történt-e.
-
-</p>
-
-
-
+    <header>
+        <div class="center">
+            <div id="logo">
+                <img src="img/logo.webp" alt="csillagközi száguldás logo">
+            </div>
+            <div >
+                <div id="honlapcim">
+                    <div></div>
+                    <div></div>
+                    <h1>
+                        Csillagközi Száguldás hivatalos oldala  <span class="material-symbols-outlined"> rocket_launch</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div>
+            <div class="center">
+                <iframe src="html/navbar.html"></iframe>
+            </div>
+        </div>
+        
+    </nav>
+    <main class="center">
+        <div id="mobil">
+            <details>
+                <summary class="linkwhite"><span class="material-symbols-outlined">menu</span> Menü</summary>
+                <ul>
+                    <li><a class="linkwhite" href="index.html" target="_parent">MAIN</a></li>
+                    <li><a class="linkwhite" href="html/race.html" target="_parent">RACES</a></li>
+                    <li><a class="linkwhite" href="html/pilots.html" target="_parent">PILOTS</a></li>
+                    <li><a class="linkwhite" href="html/teams.html" target="_parent">TEAMS</a></li>
+                    <li><a class="linkwhite" href="html/legends.html" target="_parent">HALL OF <br>FAME</a></li>
+                    <li><a class="linkwhite" href="html/places.html" target="_parent">PLACES</a></li>
+                    <li><a class="linkwhite" href="html/shop.html" target="_parent">MERCH</a></li>
+                    <li><a class="linkwhite" href="html/ticket.html" target="_parent">TICKETS</a></li>
+               </ul>
+            </details>
+        </div>
+        <div class="main-container">
+            <div id="hirek">
+                <div></div>
+                <h2><span class="material-symbols-outlined">newspaper</span> Hírek</h2>
+            </div>
+            <div class="legfobbnews-container center">
+                <div class="item1">
+                    <a href="html/news/1.html">
+                        <h3 class="newsaddres"><span class="material-symbols-outlined">
+                            notifications_active
+                            </span> Az idei verseny nagy pillanatai: Drámától a diadalig</h3>
+                    </a>
+                </div>
+                <div class="item2">
+                    <a href="html/news/2.html">
+                        <h3 class="newsaddres"><span class="material-symbols-outlined">
+                            notifications_active
+                            </span> Új pilóták érkezése: Fiatal tehetségek a fedélzeten</h3>
+                    </a>  
+                </div>
+                <div class="item3">
+                    <a href="html/news/3.html">
+                        <h3 class="newsaddres"> <span class="material-symbols-outlined">
+                            notifications_active
+                            </span>A legizgalmasabb pályák bemutatása: Az idei kedvencek</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="mainnews-container">
+                <article class="mainnews">
+                    <a href="html/news/4.html">
+                        <h3 class="newsaddres">A szezon legfeszültebb pillanatai</h3>
+                        <div class="hirkep"><img src="img/news/00052-1964865175.webp" alt="hirkep"></div>
+                        <p class="date"><span class="material-symbols-outlined">calendar_month</span> 2732.11.02</p>
+                        <p class="author"><span class="material-symbols-outlined">history_edu</span> Sziku</p>
+                    </a>
+                </article>
+                <article class="mainnews">
+                    <a href="html/news/5.html">
+                        <h3 class="newsaddres">A múlt nagyjai megszólalnak</h3>
+                        <div class="hirkep"><img src="img/news/00051-1964865174.webp" alt="hirkep"></div>
+                        <p class="date"><span class="material-symbols-outlined">calendar_month</span> 2732.11.02</p>
+                        <p class="author"><span class="material-symbols-outlined">history_edu</span> Sziku</p>
+                    </a>
+                </article>
+                <article class="mainnews">
+                    <a href="html/news/7.html">
+                        <h3 class="newsaddres">Forradalom vagy bukás?</h3>
+                        <div class="hirkep"><img src="img/news/00026-1420003135.webp" alt="hirkep"></div>
+                        <p class="date"><span class="material-symbols-outlined">calendar_month</span> 2732.11.02</p>
+                        <p class="author"><span class="material-symbols-outlined">history_edu</span> Sziku</p>
+                    </a>
+                </article>
+                <article class="mainnews">
+                    <a href="html/news/8.html">
+                        <h3 class="newsaddres"> Utazás a galaxis legizgalmasabb pontjaira</h3>
+                        <div class="hirkep"><img src="img/news/00070-266766258.webp" alt="hirkep"></div>
+                        <p class="date"><span class="material-symbols-outlined">calendar_month</span> 2732.11.02</p>
+                        <p class="author"><span class="material-symbols-outlined">history_edu</span> Sziku</p>
+                    </a>
+                </article>
+                <article class="mainnews">
+                    <a href="html/news/22.html">
+                        <h3 class="newsaddres">Hogyan születik meg egy ikon?</h3>
+                        <div class="hirkep"><img src="img/news/00056-3286765827.webp" alt="hirkep"></div>
+                        <p class="date"><span class="material-symbols-outlined">calendar_month</span> 2732.11.02</p>
+                        <p class="author"><span class="material-symbols-outlined">history_edu</span> Sziku</p>
+                    </a>
+                </article>
+                <article class="mainnews">
+                    <a href="html/news/24.html">
+                        <h3 class="newsaddres">Egyre több tehetség a pályákon</h3>
+                        <div class="hirkep"><img src="img/news/00049-1964865172.webp" alt="hirkep"></div>
+                        <p class="date"><span class="material-symbols-outlined">calendar_month</span> 2732.11.02</p>
+                        <p class="author"><span class="material-symbols-outlined">history_edu</span> Sziku</p>
+                    </a>
+                </article>
+                <article class="mainnews">
+                    <a href="html/news/27.html">
+                        <h3 class="newsaddres">Kik állnak a csapatok mögött?</h3>
+                        <div class="hirkep"><img src="img/news/00058-1129819887.webp" alt="hirkep"></div>
+                        <p class="date"><span class="material-symbols-outlined">calendar_month</span> 2732.11.02</p>
+                        <p class="author"><span class="material-symbols-outlined">history_edu</span> Sziku</p>
+                    </a>
+                </article>
+                <article class="mainnews">
+                    <a href="html/news/28.html">
+                        <h3 class="newsaddres">Az év legemlékezetesebb manőverei</h3>
+                        <div class="hirkep"><img src="img/news/00014-1420003123.webp" alt="hirkep"></div>
+                        <p class="date"><span class="material-symbols-outlined">calendar_month</span> 2732.11.02</p>
+                        <p class="author"><span class="material-symbols-outlined">history_edu</span> Sziku</p>
+                    </a>
+                </article>    
+            </div>
+            <div id="tovabbi">
+                <div></div>
+                <h2><span class="material-symbols-outlined">news</span> További hírek</h2>
+            </div>
+            <div class="news-container">
+                <article class="news">
+                    <a href="html/news/18.html">
+                        <h3 class="newsaddres">A legnagyobb botrányok a verseny történetében</h3>
+                        <div class="hirkep"><img src="img/news/00063-1129819892.webp" alt="hirkep"></div>
+                        <p class="content">Bár a Csillagközi Száguldás leginkább az izgalmas versenyekről és a lenyűgöző technológiákról ismert, a történelme során nem kerülték el a botrányok sem.</p>
+                        <p class="date"><span class="material-symbols-outlined">calendar_month</span> 2732.11.02</p>
+                        <p class="author"><span class="material-symbols-outlined">history_edu</span> Sziku</p>
+                    </a>   
+                </article>
+                <hr>
+                <article class="news">
+                    <a href="html/news/17.html">
+                        <h3 class="newsaddres">Miért olyan népszerű a Csillagközi Száguldás a galaxis minden sarkában?</h3>
+                        <div class="hirkep"><img src="img/news/00001-1774770915.webp" alt="hirkep"></div>
+                        <p class="content">A Csillagközi Száguldás sikerének kulcsa a sokszínűség és az univerzális vonzerő. A versenyek nem csupán a galaxis legjobb pilótáit és technológiáit mutatják be, hanem egy olyan világot teremtenek, amelyben minden faj, kultúra és társadalom képviselteti magát.
+                        </p>
+                        <p class="date"><span class="material-symbols-outlined">calendar_month</span> 2732.11.02</p>
+                        <p class="author"><span class="material-symbols-outlined">history_edu</span> Sziku</p>
+                    </a>   
+                </article>
+                <hr>
+                <article class="news">
+                    <a href="html/news/9.html">
+                        <h3 class="newsaddres">Egy ikonikus visszatérés: Miért döntött úgy Lyra Z’val, hogy újra versenybe száll?</h3>
+                        <div class="hirkep"><img src="img/news/00071-939312853.webp" alt="hirkep"></div>
+                        <p class="content">A szezon egyik legnagyobb meglepetése Lyra Z’val visszatérése. A háromszoros bajnok, aki négy évvel ezelőtt visszavonult, idén újra pilótafülkébe ült, és már az első futamon bizonyította, hogy a tehetsége mit sem kopott. </p>
+                        <p class="date"><span class="material-symbols-outlined">calendar_month</span> 2732.11.02</p>
+                        <p class="author"><span class="material-symbols-outlined">history_edu</span> Sziku</p>
+                    </a>   
+                </article>
+                <hr>
+                <article class="news">
+                    <a href="html/news/30.html">
+                        <h3 class="newsaddres">Mi várható a következő szezonban?</h3>
+                        <div class="hirkep"><img src="img/news/00022-1420003131.webp" alt="hirkep"></div>
+                        <p class="content">Bár az idei szezon még nem ért véget, a rajongók és a csapatok már izgatottan várják a következő évad újdonságait. A pletykák szerint új szabályok és innovációk is érkeznek, amelyek még izgalmasabbá tehetik a versenyt.
+                        </p>
+                        <p class="date"><span class="material-symbols-outlined">calendar_month</span> 2732.11.02</p>
+                        <p class="author"><span class="material-symbols-outlined">history_edu</span> Sziku</p>
+                    </a>   
+                </article>
+                <hr>
+                <article class="news">
+                    <a href="html/news/20.html">
+                        <h3 class="newsaddres">A legikonikusabb győzelmek a verseny történetében</h3>
+                        <div class="hirkep"><img src="img/news/00062-1129819891.webp" alt="hirkep"></div>
+                        <p class="content">A Csillagközi Száguldás története tele van felejthetetlen győzelmekkel, amelyek örökre beíródtak a sportág történelemkönyvébe. Az egyik legismertebb diadal Arlos Y’tar nevéhez fűződik, aki a Vega Vortex Circuit versenyen a hajrában előzte meg ellenfelét, mindössze 0,001 másodperces különbséggel – ez a sportág történetének legszorosabb befutója.</p>
+                        <p class="date"><span class="material-symbols-outlined">calendar_month</span> 2732.11.02</p>
+                        <p class="author"><span class="material-symbols-outlined">history_edu</span> Sziku</p>
+                    </a>   
+                </article>
+                <hr>
+                <article class="news">
+                    <a href="html/news/16.html">
+                        <h3 class="newsaddres">A Csillagközi Száguldás gazdasági hatásai a bolygókra</h3>
+                        <div class="hirkep"><img src="img/news/00007-2655455040.webp" alt="hirkep"></div>
+                        <p class="content">A versenysorozat nemcsak sportesemény, hanem hatalmas gazdasági erő is, amely évente több milliárd kreditet generál a galaxis különböző pontjain. Az egyes futamok helyszínei jelentős turisztikai bevételhez jutnak, hiszen a versenyek több millió látogatót vonzanak.</p>
+                        <p class="date"><span class="material-symbols-outlined">calendar_month</span> 2732.11.02</p>
+                        <p class="author"><span class="material-symbols-outlined">history_edu</span> Sziku</p>
+                    </a>   
+                </article>
+                <hr>
+                <article class="news">
+                    <a href="html/news/14.html">
+                        <h3 class="newsaddres">A pályákhoz kapcsolódó legendás történetek</h3>
+                        <div class="hirkep"><img src="img/news/00054-3286765825.webp" alt="hirkep"></div>
+                        <p class="content">Minden pálya saját történetet mesél el, de néhány helyszín legendái különösen híressé váltak az évek során. A Polaris Ice Loop pályán például az a történet járja, hogy egy pilóta egyszer eltévedt a jeges ködben, és még így is megnyerte a futamot – egyetlen kör késéssel! Bár a sztori igazságtartalma megkérdőjelezhető, a pálya híre azóta is összefonódik a rejtélyekkel.</p>
+                        <p class="date"><span class="material-symbols-outlined">calendar_month</span> 2732.11.02</p>
+                        <p class="author"><span class="material-symbols-outlined">history_edu</span> Sziku</p>
+                    </a>   
+                </article>
+            </div>
+            <div id="rovatok">
+                <div></div>
+                <h2><span class="material-symbols-outlined">newsstand</span> Rovatok</h2>
+            </div>
+            <div class="subnews-container">
+                <article class="subnews">
+                    <h3 class="newsaddres"><span class="material-symbols-outlined">emoji_events</span> Kulliszák</h3>
+                    <div class="hirkep"><img src="img/news/00128-3931446396.png" alt="hirkep"></div>
+                    <ul>
+                        <li>
+                            <a href="html/rovat/25.html">Hogyan választják ki a versenyhelyszíneket?</a>
+                        </li>
+                        <li>
+                            <a href="html/rovat/23.html">A galaktikus közvetítések kulisszatitkai</a>
+                        </li>
+                        <li>
+                            <a href="html/rovat/21.html">A csapatfőnökök szerepe: Az árnyékban álló stratégák</a>
+                        </li>
+                        <li>
+                            <a href="html/rovat/11.html">A pályatervezés művészete: Így születnek meg az ikonikus versenyhelyszínek</a>
+                        </li>
+                        <li>
+                            <a href="html/rovat/10.html">Hogyan készülnek a pilóták a versenyekre? A felkészülés titkai</a>
+                        </li>
+                        <li>
+                            <a href="html/rovat/19.html">A pilóták egészségügyi kihívásai: Hogyan birkóznak meg a gravitációs terheléssel?</a>
+                        </li>
+                    </ul>
+                </article>
+                <article class="subnews">
+                    <h3 class="newsaddres"><span class="material-symbols-outlined">biotech</span> Technika</h3>
+                    <div class="hirkep"><img src="img/news/00125-1272578395.webp" alt="hirkep"></div>
+                    <ul>
+                        <li>
+                            <a href="html/rovat/13.html">A versenyjárművek fejlesztése: Az év leginnovatívabb technológiái</a>
+                        </li>
+                        <li>
+                            <a href="html/rovat/6.html">AR és VR technológia megjelenése a versenyeknél</a>
+                        </li>
+                        <li>
+                            <a href="html/rovat/15.html">Hogyan változtatja meg a sportágat a mesterséges intelligencia?</a>
+                        </li>
+                        <li>
+                            <a href="html/rovat/29.html">A csapatok mérnökeinek titkai: Kik állnak a technológiai csodák mögött?</a>
+                        </li>
+                    </ul>
+                </article>
+                <article class="subnews">
+                    <h3 class="newsaddres"><span class="material-symbols-outlined">restaurant</span> Gasztro</h3>
+                    <div class="hirkep"><img src="img/news/00113-3251867318.webp" alt="hirkep"></div>
+                    <ul>
+                        <li>
+                            <a href="html/rovat/31.html">Új fogások a Vega Prime éttermeiben: Gravitációs desszertek hódítanak</a>
+                        </li>
+                        <li>
+                            <a href="html/rovat/32.html">Polaris Ice Loop Street Food Fesztivál: Jeges italok és sarki ízek</a>
+                        </li>
+                        <li>
+                            <a href="html/rovat/33.html">Krion Nebula Gasztronómiai Élmény: Meteor-köves steak a menüben</a>
+                        </li>
+                        <li>
+                            <a href="html/rovat/34.html">Andromeda Hyper-Dash Food Market: A galaxis legjobb gyorsételei</a>
+                        </li>
+                        <li>
+                            <a href="html/rovat/35.html">Tau Ceti Gourmet élmények: Intergalaktikus luxus a versenynapon</a>
+                        </li>
+                    </ul>
+                </article>
+                <article class="subnews">
+                    <h3 class="newsaddres"><span class="material-symbols-outlined">mode_fan</span> Fannok</h3>
+                    <div class="hirkep"><img src="img/news/00116-2541075116.webp" alt="hirkep"></div>
+                    <ul>
+                        <li>
+                            <a href="html/rovat/12.html">A rajongók szerepe: Hogyan teszik különlegessé a versenyeket?</a>
+                        </li>
+                        <li>
+                            <a href="html/rovat/26.html">A nézők biztonsága a futamokon</a>
+                        </li>
+                        <li>
+                            <a href="html/rovat/36.html">Életem Legjobb Élménye a Vega Vortex Circuit-en!</a>
+                        </li>
+                        <li>
+                            <a href="html/rovat/37.html">Közvetlen Közelből az Andromeda Hyper-Dash-en</a>
+                        </li>
+                        <li>
+                            <a href="html/rovat/38.html">A Polaris Ice Loop Fagyos Szépsége</a>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+            <div id="socials">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <h2><span class="material-symbols-outlined">diversity_3</span> Socials</h2>
+            </div>
+            <div class="socials-conatiner">
+                <a href="https://www.youtube.com/" target="_blank"><div><img src="css/icons/youtube.png" alt="youtube-icon">YouTube</div></a>
+                <a href="https://x.com/" target="_blank"> <div><img src="css/icons/twitter.png" alt="twitter-icon">Twitter</div></a>
+                <a href="https://discord.com/" target="_blank"> <div><img src="css/icons/discord.png" alt="discord-icon">Discord</div></a>
+                <a href="https://www.tiktok.com/foryou?lang=en" target="_blank"> <div><img src="css/icons/tik-tok.png" alt="tiktok-icon">TikTok</div></a>
+                <a href="https://www.facebook.com/" target="_blank"> <div><img src="css/icons/facebook.png" alt="facebook-icon">Facebook</div></a>
+                <a href="https://www.instagram.com/" target="_blank"> <div><img src="css/icons/instagram.png" alt="instagram-icon">Instagram</div></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="center">
+            <iframe src="html/footer.html"></iframe>
+        </div>
+    </footer>
 </body>
 </html>
