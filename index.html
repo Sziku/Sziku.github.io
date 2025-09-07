@@ -1,30 +1,92 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tankó Szilárd Oktatási Honlapja</title>
-    <link rel="icon" type="image/x-icon" href="css/icons/rocket.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tankó Szilárd Oktatási Honlapja</title>
+  <link rel="icon" type="image/x-icon" href="css/icons/rocket.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
+
 <body>
-   <h1>Mikrovezérlők programozása</h1>
-   <h2>Órai feladatok</h2>
-   <h3>Regisztrációk</h3>
-   <p><a href="https://github.com/signup?source=login" target="_blank">GitHub</a></p>
-   <p><a href="https://www.codewars.com/users/sign_in" target="_blank">CodeWars</a></p>
-   <p><a href="https://account.jetbrains.com/login" target="_blank">JetBrains</a></p>
-   <h3>1. óra</h3>
-   <h4>Programozási feladatok C nyelvben</h4>
-   <a href="https://www.codewars.com/kata/643af0fa9fa6c406b47c5399" target="_blank">1. feladat</a>
-   <p>Adott egy pont egy euklideszi síkon (x és y), adja vissza azt a kvadránst, amelyben a pont található: 1, 2, 3 vagy 4 (egész szám). x és y nem nulla egész számok, ezért az adott pont soha nem fekszik a tengelyeken.<a href="https://hu.wikipedia.org/wiki/S%C3%ADknegyed" target="_blank" rel="noopener noreferrer">Wiki - Sík negyed</a></p>
-   <a href="https://www.codewars.com/kata/643ea1adef815316e5389d17" target="_blank">2. feladat</a>
-   <p>A feladatod az, hogy ellenőrizd, egy szegmens teljes egészében egy kvadránsban van-e, vagy többet is átlép. Ha a szegmens két vagy több kvadránsban van, akkor adj vissza igaz értéket. Ha a szegmens csak egy kvadránsban van, akkor adj vissza hamis értéket. Két paraméter van: A (coord) és B (coord), az AB szegmenst meghatározó végpontok. Egyik koordináta sem lesz nulla; feltételezd, hogy minden X és Y érték pozitív vagy negatív.</p>
-   <a href="https://www.codewars.com/kata/5b853229cfde412a470000d0" target="_blank">3. feladat</a>
-   <p>A függvény két argumentumot fogad: az apa jelenlegi életkora (évben) a fia jelenlegi életkora (évben) Számítsa ki, hány évvel ezelőtt volt az apa kétszer olyan idős, mint a fia (vagy hány év múlva lesz kétszer olyan idős). A válasz mindig nagyobb vagy egyenlő 0-val, függetlenül attól, hogy a múltban vagy a jövőben történt-e.</p>
-   <a href="https://www.codewars.com/kata/5f1804560873b20023e8244a" target="_blank">4. feladat</a>
-   <p>Kapsz egy 32 bites lebegőpontos (egyszeres pontosságú) értéket. Add vissza azt a számot, amelyet egy előjeles 32 bites egész szám ugyanazzal a bitmintával tárolna</p>
-   <h2>Tematika</h2>
-   <h2>Házi feladatok</h2>
-   <h2>Szorgalmik</h2>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <main>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+          <span class="navbar-brand mb-0 h1">Hallgatóknak</span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Kezdőlap</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Kurzusok
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Fizika</a></li>
+                  <li><a class="dropdown-item" href="#">Mikrovezérlők</a></li>
+                  <li><a class="dropdown-item" href="#">Számítógépes szimulációk</a></li>
+                  <li><a class="dropdown-item" href="#">Digitális kultúra</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container">
+      <h1>Mikrovezérlők programozása</h1>
+      <h2>Órai feladatok</h2>
+      <h3>Regisztrációk</h3>
+      <p><a href="https://github.com/signup?source=login" target="_blank">GitHub</a></p>
+      <p><a href="https://www.codewars.com/users/sign_in" target="_blank">CodeWars</a></p>
+      <p><a href="https://account.jetbrains.com/login" target="_blank">JetBrains</a></p>
+      <h3>1. óra</h3>
+      <h4>Programozási feladatok C nyelvben</h4>
+      <a href="https://www.codewars.com/kata/643af0fa9fa6c406b47c5399" target="_blank">1. feladat</a>
+      <p>Adott egy pont egy euklideszi síkon (x és y), adja vissza azt a kvadránst, amelyben a pont található: 1, 2, 3
+        vagy 4 (egész szám). x és y nem nulla egész számok, ezért az adott pont soha nem fekszik a tengelyeken.<a
+          href="https://hu.wikipedia.org/wiki/S%C3%ADknegyed" target="_blank" rel="noopener noreferrer">Wiki - Sík
+          negyed</a></p>
+      <a href="https://www.codewars.com/kata/643ea1adef815316e5389d17" target="_blank">2. feladat</a>
+      <p>A feladatod az, hogy ellenőrizd, egy szegmens teljes egészében egy kvadránsban van-e, vagy többet is átlép. Ha
+        a szegmens két vagy több kvadránsban van, akkor adj vissza igaz értéket. Ha a szegmens csak egy kvadránsban van,
+        akkor adj vissza hamis értéket. Két paraméter van: A (coord) és B (coord), az AB szegmenst meghatározó
+        végpontok. Egyik koordináta sem lesz nulla; feltételezd, hogy minden X és Y érték pozitív vagy negatív.</p>
+      <a href="https://www.codewars.com/kata/5b853229cfde412a470000d0" target="_blank">3. feladat</a>
+      <p>A függvény két argumentumot fogad: az apa jelenlegi életkora (évben) a fia jelenlegi életkora (évben) Számítsa
+        ki, hány évvel ezelőtt volt az apa kétszer olyan idős, mint a fia (vagy hány év múlva lesz kétszer olyan idős).
+        A válasz mindig nagyobb vagy egyenlő 0-val, függetlenül attól, hogy a múltban vagy a jövőben történt-e.</p>
+      <a href="https://www.codewars.com/kata/5f1804560873b20023e8244a" target="_blank">4. feladat</a>
+      <p>Kapsz egy 32 bites lebegőpontos (egyszeres pontosságú) értéket. Add vissza azt a számot, amelyet egy előjeles
+        32 bites egész szám ugyanazzal a bitmintával tárolna</p>
+      <h2>Tematika</h2>
+      <h2>Házi feladatok</h2>
+      <h2>Szorgalmik</h2>
+    </div>
+  </main>
 </body>
+
 </html>
