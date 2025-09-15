@@ -12,11 +12,20 @@
 
 <body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/colormode_change.js"></script>
   <main>
+    <div class="container">
+
+      <head>
+        <h1>
+          Header
+        </h1>
+      </head>
+    </div>
     <div class="container">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+          <img src="docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
           <span class="navbar-brand mb-0 h1">Hallgatóknak</span>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -26,10 +35,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Kezdőlap</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Kezdőlap</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="html/points.html">Pontok</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -37,22 +46,24 @@
                   Kurzusok
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Fizika</a></li>
-                  <li><a class="dropdown-item" href="#">Mikrovezérlők</a></li>
-                  <li><a class="dropdown-item" href="#">Számítógépes szimulációk</a></li>
-                  <li><a class="dropdown-item" href="#">Digitális kultúra</a></li>
+                  <li><a class="dropdown-item" href="html/courses/physx.html">Fizika</a></li>
+                  <li><a class="dropdown-item" href="html/courses/microprograming.html">Mikrovezérlők</a></li>
+                  <li><a class="dropdown-item" href="html/courses/compsim.html">Számítógépes szimulációk</a></li>
+                  <li><a class="dropdown-item" href="html/courses/digitalcult.html">Digitális kultúra</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">See the future</a></li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
               </li>
             </ul>
           </div>
         </div>
+        <form class="container-fluid justify-content-end">
+          <button id="theme-toggle" class="btn btn-light">
+            🌞
+          </button>
+        </form>
       </nav>
     </div>
 
